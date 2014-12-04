@@ -1,4 +1,4 @@
 CocoaPods
 =========
 
-CocoaPod's Demo
+create a CocoaPod's Demo responsitory
