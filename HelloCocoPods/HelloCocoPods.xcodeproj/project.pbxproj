@@ -13,18 +13,7 @@
 		26CEF0B31A309854002C641A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CEF0B11A309854002C641A /* Main.storyboard */; };
 		26CEF0B51A309854002C641A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26CEF0B41A309854002C641A /* Images.xcassets */; };
 		26CEF0B81A309854002C641A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26CEF0B61A309854002C641A /* LaunchScreen.xib */; };
-		26CEF0C41A309854002C641A /* HelloCocoPodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CEF0C31A309854002C641A /* HelloCocoPodsTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		26CEF0BE1A309854002C641A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26CEF09C1A309854002C641A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 26CEF0A31A309854002C641A;
-			remoteInfo = HelloCocoPods;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		26CEF0A41A309854002C641A /* HelloCocoPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCocoPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,20 +26,12 @@
 		26CEF0B21A309854002C641A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26CEF0B41A309854002C641A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		26CEF0B71A309854002C641A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		26CEF0BD1A309854002C641A /* HelloCocoPodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloCocoPodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26CEF0C21A309854002C641A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26CEF0C31A309854002C641A /* HelloCocoPodsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloCocoPodsTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		26CEF0A11A309854002C641A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26CEF0BA1A309854002C641A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				26CEF0A41A309854002C641A /* HelloCocoPods.app */,
-				26CEF0BD1A309854002C641A /* HelloCocoPodsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,24 +119,6 @@
 			productReference = 26CEF0A41A309854002C641A /* HelloCocoPods.app */;
 			productType = "com.apple.product-type.application";
 		};
-		26CEF0BC1A309854002C641A /* HelloCocoPodsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 26CEF0CA1A309854002C641A /* Build configuration list for PBXNativeTarget "HelloCocoPodsTests" */;
-			buildPhases = (
-				26CEF0B91A309854002C641A /* Sources */,
-				26CEF0BA1A309854002C641A /* Frameworks */,
-				26CEF0BB1A309854002C641A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				26CEF0BF1A309854002C641A /* PBXTargetDependency */,
-			);
-			name = HelloCocoPodsTests;
-			productName = HelloCocoPodsTests;
-			productReference = 26CEF0BD1A309854002C641A /* HelloCocoPodsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +130,6 @@
 				TargetAttributes = {
 					26CEF0A31A309854002C641A = {
 						CreatedOnToolsVersion = 6.0.1;
-					};
-					26CEF0BC1A309854002C641A = {
-						CreatedOnToolsVersion = 6.0.1;
-						TestTargetID = 26CEF0A31A309854002C641A;
 					};
 				};
 			};
@@ -189,7 +147,6 @@
 			projectRoot = "";
 			targets = (
 				26CEF0A31A309854002C641A /* HelloCocoPods */,
-				26CEF0BC1A309854002C641A /* HelloCocoPodsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,13 +159,6 @@
 				26CEF0B31A309854002C641A /* Main.storyboard in Resources */,
 				26CEF0B81A309854002C641A /* LaunchScreen.xib in Resources */,
 				26CEF0B51A309854002C641A /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26CEF0BB1A309854002C641A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,23 +175,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26CEF0B91A309854002C641A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26CEF0C41A309854002C641A /* HelloCocoPodsTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		26CEF0BF1A309854002C641A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 26CEF0A31A309854002C641A /* HelloCocoPods */;
-			targetProxy = 26CEF0BE1A309854002C641A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		26CEF0B11A309854002C641A /* Main.storyboard */ = {
@@ -359,40 +293,6 @@
 			};
 			name = Release;
 		};
-		26CEF0CB1A309854002C641A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HelloCocoPodsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloCocoPods.app/HelloCocoPods";
-			};
-			name = Debug;
-		};
-		26CEF0CC1A309854002C641A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HelloCocoPodsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloCocoPods.app/HelloCocoPods";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -412,14 +312,7 @@
 				26CEF0C91A309854002C641A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		26CEF0CA1A309854002C641A /* Build configuration list for PBXNativeTarget "HelloCocoPodsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				26CEF0CB1A309854002C641A /* Debug */,
-				26CEF0CC1A309854002C641A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
